@@ -31,7 +31,7 @@ public class Report {
     private Long id;
 
     /**
-     * 请求表示
+     * 请求标识
      */
     private String identify;
 

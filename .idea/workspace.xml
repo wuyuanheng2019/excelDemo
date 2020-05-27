@@ -19,26 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e77070a1-96c0-4648-aac2-a274922557fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/excelDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e77070a1-96c0-4648-aac2-a274922557fb" name="Default Changelist" comment="更新dev">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/entity/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/Report.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/util/ExportUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/util/ExportUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/config/Swagger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/config/Swagger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/Report.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/Report.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/entity/vo/StudentVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/entity/vo/StudentVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/service/impl/StudentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/util/DataCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/util/DataCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/util/ExcelImportUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/util/ExcelImportUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/util/ExportObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/util/ExportObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/util/ExportUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/util/ExportUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +28,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -110,6 +97,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DemoApplication (1)" />
+        <item itemvalue="Spring Boot.DemoApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -124,8 +112,23 @@
       <option name="presentableId" value="Default" />
       <updated>1590504319275</updated>
       <workItem from="1590504321874" duration="27000" />
-      <workItem from="1590542631986" duration="8010000" />
+      <workItem from="1590542631986" duration="8255000" />
     </task>
+    <task id="LOCAL-00001" summary="更新">
+      <created>1590550853868</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590550853868</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新dev">
+      <created>1590550913690</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590550913690</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +145,16 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新" />
+    <MESSAGE value="更新dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新dev" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="184" y="85" key="DiffContextDialog" timestamp="1590550868035">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590550868035" />
     <state width="1877" height="368" key="GridCell.Tab.0.bottom" timestamp="1590546891709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -191,6 +203,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="368" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590546891601" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1590550916450">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590550916450" />
   </component>
   <component name="masterDetails">
     <states>
