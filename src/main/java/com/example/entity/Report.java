@@ -26,6 +26,11 @@ public class Report {
     private static final long serialVersionUID = 1L;
 
     /**
+     * id
+     */
+    private Long id;
+
+    /**
      * 请求表示
      */
     private String identify;

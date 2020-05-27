@@ -2,6 +2,8 @@ package com.example.util;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.collection.CollectionUtil;
+import cn.hutool.core.io.FileUtil;
+import cn.hutool.extra.servlet.multipart.UploadFile;
 import com.example.entity.Student;
 import lombok.Cleanup;
 import lombok.extern.slf4j.Slf4j;
@@ -14,6 +16,7 @@ import org.apache.poi.xssf.streaming.SXSSFWorkbook;
 import org.apache.poi.xssf.usermodel.XSSFRichTextString;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.tomcat.util.http.fileupload.FileUpload;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
@@ -214,6 +217,8 @@ public class ExportUtil {
             log.error(e.getMessage(), e);
         }
 
+        System.out.println(object.getPath()+"!!!!!!!!!!!!!!!!!!!!!");
+
         File file = new File(object.getPath());
         //上传到文件服务器 TODO
 
@@ -241,6 +246,10 @@ public class ExportUtil {
             workbook.write(outputStream);
             outputStream.flush();
 
+            //关流
+            workbook.close();
+            outputStream.close();
+            workbook.dispose();
         } catch (Exception e) {
             log.error(e.getMessage(), e);
         }
